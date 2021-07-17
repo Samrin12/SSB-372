@@ -1,0 +1,719 @@
+<!doctype html>
+<html>
+    <head>
+        <title>First Assignment Table</title>
+        <link rel="icon" href="images/download.png">
+    </head>
+    <body>
+        <table border="1px" width="100%" cellspacing="0">
+            <caption>HTML TAGS</caption>
+            <tr>
+                <th>SI</th>
+                <th>Tag Name</th>
+                <th>Description</th>
+                <th>Example</th>                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Abbreviation Tag</td>
+                <td>This tag is used to define an abbreviation or acronym.</td>
+                <td><abbr title="Word Health Organization">WHO</abbr></td>
+            </tr>
+            <tr>
+                <td>2</td>
+               <td>Hyperlink Tag</td>
+               <td>This tag is used to define an hyperlink.</td>
+               <td><a href="https://www.youtube.com/">Youtube</a></td>            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Article Tag </td>
+            <td>This tag is used to define an article.</td>
+            <td><h2>Netbeans</h2><p>One of the best java compilers.</p></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Aside Tag</td>
+            <td>Display same cotent aside from the content it is placed in.</td>
+            <td><h3>Hello</h3><p>This is the first coentent</p><aside><h5>Aside</h5><p>This is the second content</p></aside></td>
+                
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Bold Tag</td>
+            <td>Defines bold texts</td>
+            <td><b>This Sentence is bold</b></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>BDI Tag</td>
+            <td>Isolates a part of text that might be formatted in a different direction from other text outside it</td>
+            <td><ul><li>User <bdi>href</bdi> :90
+            </li></ul></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>BDO Tag</td>
+            <td>Overrides the current text direction</td>
+            <td><bdo dir="rtl">This Text will go right to left</bdo></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Blockquote Tag</td>
+            <td>Defines a section that is quoted from another source</td>
+            <td><blockquote cite="http://www.worldwildlife.org/who/index.html">WWF is protecting the future nature</blockquote></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Break Tag</td>
+            <td>Defines a single line break</td>
+            <td>Lets <br> See it
+            </td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Button Tag</td>
+            <td>Defines a click table button</td>
+            <td><button type="button">Click Here</button></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Canvas Tag</td>
+            <td>Used to draw graphics, on the fly, via scripting (usually Javascript)</td>
+            <td><canvas id="myCanvas">This is a canvas</canvas>
+                <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    ctx.fillStyle = "#FF0000";
+                    ctx.fillRect(0,0,50,80);
+                </script>
+            
+            </td>
+
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Caption Tag</td>
+            <td>Defines a table caption</td>
+            <td><table border="1px" cellspacing="0">
+                <caption>STUDENTS GRADE</caption>
+                <tr><th>Subject</th>
+                <th>Grade</th></tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>80%</td>
+                    </tr><tr>
+                        <td>Math</td>
+                    <td>94%</td>
+                </tr>
+            </table></td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Work Title tag</td>
+            <td>Defines the title of work</td>
+            <td><p><cite>One Last Stop</cite>Casey McQuiston-  <br>“Casey McQuiston’s One Last Stop is a magical, big-hearted romance          where the impossible becomes possible as August does everything in her power to save the girl lost in time”</p></td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Code Tag</td>
+            <td>defines a peice of computer code</td>
+            <td><p>The HTML <code>button</code> tag defines a clickable button</p></td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Color Tag</td>
+            <td>Specifies column properties for each column within a element. St the columns Color.</td>
+                <td>
+                    <table border="1px" cellspacing="0">
+                        <colgroup>
+                          <col span="2" style="background-color: blue;">
+                          <col style="background-color: burlywood;">
+                        </colgroup>
+                        <tr>
+                          <th>Name</th>
+                          <th>Roll</th>
+                          <th>Age</th>
+                        </tr>
+                        <tr>
+                          <td>John</td>
+                          <td>1</td>
+                          <td>21</td>
+                        </tr>
+                      </table>
+                </td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Color Group Tag</td>
+            <td>Specifies a group of one or more columns in a table for formatting</td>
+            <td>
+                <table>
+                    <colgroup>
+                      <col span="2" style="background-color: cadetblue;">
+                      <col style="background-color: crimson;">
+                    </colgroup>
+                    <tr>
+                      <th>Name</th>
+                      <th>Position</th>
+                      <th>Address</th>
+                    </tr>
+                    <tr>
+                      <td>Rahman</td>
+                      <td>General Manager</td>
+                      <td>Dhaka</td>
+                    </tr>
+                  </table>
+            </td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Data tag</td>
+            <td>Adds a machine-readable translation of a given content</td>
+            <td>
+                <ul>
+                    <li><data value="2130">Tomato</data></li>
+                    <li><data value="21032">Potato</data></li>
+                    <li><data value="21034">Carrot</data></li>
+                  </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Description tag</td>
+            <td>Defines a description of a term in a description list</td>
+            <td>
+                <dl>
+                    <dt>Cricket</dt>
+                    <dd>One kind of game</dd>
+                    <dt>Ball</dt>
+                    <dd>Used in the game</dd>
+                  </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Delete Tag</td>
+            <td>Defines text that has been deleted from a document</td>
+            <td><p>My favorite subject is <del>Social Science</del> <ins>Math</ins>!</p></td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Detail Tag</td>
+            <td>Defines additional details that the user can view or hide</td>
+            <td>
+                <details>
+                    <summary>Codeforces</summary>
+                    <p>Competitive Programming Site. Helps a coder to develop skill.</p>
+                  </details>
+            </td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Define tag</td>
+            <td>Specifies a term that is going to be defined within the content</td>
+            <td><p><dfn>Java</dfn>Standard Programming Language For Making Softwares</p></td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Dialogue Tag</td>
+            <td>Defines a dialogue box or a window</td>
+            <td>
+                <h3>Dialogue Box</h3>
+                <p>Making a dialogue box</p>
+                <dialog open>This is an open dialog window</dialog>
+                <p>    o    </p>
+                <p>    o    </p>
+            </td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>Description List Tag</td>
+            <td>Defines a description list</td>
+            <td>
+                <dl>
+                    <dt>Pen</dt>
+                    <dd>Used for writing</dd>
+                    <dt>Eraser</dt>
+                    <dd>Used to erase a mistake</dd>
+                  </dl>
+                  
+            </td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>Description term tag</td>
+            <td>Defines a term/name in a description list</td>
+            <td>
+                <dl>
+                    <dt>Term</dt>
+                    <dd>Description</dd>
+                  </dl>
+            </td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>Emphasize Tag</td>
+            <td>Defins emphasized text</td>
+            <td><p>This <em>word</em> is emphasized </p>
+            </td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>Form Tag</td>
+            <td>Groups related elements in a form</td>
+            <td>
+                <form action="/action_page.php">
+                    <fieldset>
+                      <legend>Personalia:</legend>
+                      <label for="fname">First name:</label>
+                      <input type="text" id="fname" name="fname"><br><br>
+                      <label for="lname">Last name:</label>
+                      <input type="text" id="lname" name="lname"><br><br>
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email"><br><br>
+                      <label for="birthday">Birthday:</label>
+                      <input type="date" id="birthday" name="birthday"><br><br>
+                      <input type="submit" value="Submit">
+                    </fieldset>
+                  </form>
+            </td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>Figure Caption Tag</td>
+            <td> Define a caption for a figure element.</td>
+            <td>
+                <figure>
+                    <img src="Images/download (2).jpg" alt=DOWNLOAD style= "width:10">
+                    <figcaption>FLOWERS</figcaption>
+                </figure>
+            </td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>Footer Tag</td>
+            <td>Defines a footer for a document or section</td>
+            <td>
+                <footer>
+                    <p>Hege Refsnes</p>
+                    <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+                </footer>
+            </td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>Input Form Tag</td>
+            <td>Defines a html tag for user input</td>
+            <td>
+                <h1>LOGIN</h1>
+
+                 <form action="/action_page.php">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="pass">Password:</label>
+                    <input type="text" id="pass" name="pass"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>Heading Tag</td>
+            <td> Defines html heading</td>
+            <td><h1>This is a heading</h1></td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>Head Tag</td>
+            <td>Contains metadata/information for the document</td>
+            <td>
+                <html>
+                    <head>This is the head of a page</head>
+                </html>
+            </td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>Header Tag</td>
+            <td>Defines the header for a document or setion</td>
+            <td>
+                <article>
+                    <header>
+                      <h1>This is the header</h1>
+                      <p>This is the first line</p>
+                    </header>
+                    <p>This is the second line</p>
+                  </article>
+            </td>
+        </tr>
+        <tr>
+            <td>32</td>
+            <td>HR Tag</td>
+            <td>Defines a thematic change in the content</td>
+            <td>
+                <p>This line is normal</p>
+                <hr><p>This line is written in hr tag</p></hr>
+                <p>This line is normal</p>
+            </td>
+        </tr>
+        <tr>
+            <td>33</td>
+            <td>Italic Tag</td>
+            <td>Defines a  text in an italic mood</td>
+            <td><i>This text is italic</i></td>
+        </tr>
+        <tr>
+            <td>34</td>
+            <td>Inline Frame Tag</td>
+            <td>Defines an inline frame</td>
+            <td><iframe src="https://www.youtube.com/" title="Youtube">This website refuses to connenct</iframe></td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>Image Tag</td>
+            <td>Defines an image</td>
+            <td><img src="images/wp6244231.jpg" alt="WP6244231" width="200" height=100></td>
+
+        </tr>
+        <tr>
+            <td>36</td>
+            <td>Inserted Tag</td>
+            <td>Defines a text has been inserted to a document</td>
+            <td> <p>This is <del>deleted</del><ins>inserted</ins></p></td>
+        </tr>
+        <tr>
+            <td>37</td>
+            <td>KBD Tag</td>
+            <td>Defines key-board inout</td>
+            <td>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save the code </td>
+        </tr>
+        <tr>
+            <td>38</td>
+            <td>Main Tag</td>
+            <td>Specifies the main content of a document</td>
+            <td><main>this is the main element</main></td>
+        </tr>
+        <tr>
+            <td>39</td>
+            <td>Map Tag</td>
+            <td>Defines an image map</td>
+            <td>
+                <img src="Images/download.jpg" alt="Download" usemap="#downmap" width="200" height="100">
+                <map name="downmap">
+                    <area shape="rect" coords="34,44,90,190" alt="Computer" href="computer.htm">
+                    <area shape="rect" coords="170,90,195,175" alt="Phone" href="phone.htm">
+                    <area shape="circle" coords="195,188,120" alt="Cup of coffee" href="coffee.htm">
+                  </map>
+            </td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>Mark Tag</td>
+            <Td>Defines marked/highlighted words</Td>
+            <td><p>This <mark>word</mark> is highlighted.
+            </p></td>
+        </tr>
+        <tr>
+            <td>41</td>
+            <td>Meta Tag</td>
+            <td>Defines meta data about an html document</td>
+            <td>
+                <html>
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="First Calss" content="Web Development">
+                    </head>
+                    <body>
+                        <p>Meta data is in the head section</p>
+                    </body>
+                </html>
+            </td>
+        </tr>
+        <tr>
+            <td>42</td>
+            <td>Meter Tag</td>
+            <td>Defines a scalar measurement within a known range</td>
+            <td>
+                <label for="disk_c">Disk Usage C:</label>
+                 <meter id="disk_c" value="5" min="0" max="10">5 out of 10</meter><br>
+            </td>
+        </tr>
+        <tr>
+            <td>43</td>
+            <td>Navigation Tag</td>
+            <td>Defines navigation links</td>
+            <td>
+                <nav><a href="/html/">HTML</a></nav>
+            </td>
+        </tr>
+        <tr>
+            <td>44</td>
+            <td>Nonscript tag</td>
+            <td>Defines an alternate content for users that do not support client-side scripts</td>
+            <td>
+                <script>
+                    document.write("Hello")
+                </script>
+                <noscript>Your browser does not support Codeblocks</noscript>
+            </td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>Object Tag</td>
+            <td>Defines a container for an external application</td>
+            <td>
+                <object data="Images/379d2c70f67f62c4770d01c2848bc6d3.jpg" type="" weidth="200" height="100"></object>
+            </td>
+        </tr>
+        <tr>
+            <td>46</td>
+            <td>Ordered list Tag</td>
+            <td>Defines an ordered list</td>
+            <td>
+                <ol>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                    <li>Sugar</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>47</td>
+            <td>Option Group Tag</td>
+            <td>defines a group of related options in a drop-down list</td>
+            <td>
+                <label for="Phones">Choose a Phone:</label>                
+                <select  name="Phones" id="Phones">
+                  <optgroup label="Top-rated Phones">
+                    <option value="IPhone">IPhone</option>
+                    <option value="OnePlus">OnePlus</option>
+                  </optgroup>
+                  <optgroup label="BUdget-friendly Phones">
+                    <option value="Oppo">Oppo</option>
+                    <option value="Vivo">Vivo</option>
+                  </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>48</td>
+            <td>Unordered list Tag</td>
+            <td>Defines an unordered list</td>
+            <td>
+                <ul>
+                    <li>Coffe</li>
+                    <li>Tea</li>
+                    <li>Soda</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>49</td>
+            <td>Paragraph tag</td>
+            <td>Defines a paragraph</td>
+           <td><p>It's a small paragraph</p></td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>Output Tag</td>
+            <td>Defines the result of a calculation</td>
+            <td>
+                <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="range" id="a" value="10">
+                    +<input type="number" id="b" value="5">
+                    =<output name="x" for="a b"></output>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>51</td>
+            <td>Performed Tag</td>
+            <td>Defines performed text</td>
+            <td><pre>This text is in pre element</pre></td>
+
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Progress tag</td>
+            <td>Defines the progress of a tag</td>
+            <td>
+                <label for="file">Downloading progress:</label>
+                <progress id="file" value="50" max="100"> 50% </progress>
+            </td>
+        </tr>
+        <tr>
+            <td>53</td>
+            <td>Quotation Tag</td>
+            <td>Defines a short quotation</td>
+            <td><q>This sentence is quoted</q></td>
+        </tr>
+        <tr>
+            <td>53</td>
+            <td>Ruby Tag</td>
+            <td>Defines what to show in browser that do not support ruby annotation</td>
+            <td>
+                <ruby>
+                 漢 <rp>(</rp><rt>ㄏㄢˋ</rt><rp>)</rp>
+                </ruby>
+            </td>
+        </tr>
+        <tr>
+            <td>54</td>
+            <td>RT Tag</td>
+            <td>Defines an explanation/pronunciation of characters</td>
+            <td>
+                <ruby>
+                漢 <rt> ㄏㄢˋ </rt>
+                </ruby>
+            </td>
+        </tr>
+        <tr>
+            <td>55</td>
+            <td>S Tag</td>
+            <td>Defines statement that is no onger correct</td>
+            <td><p><s>This is correct</s></p>
+            <p>This is no longer correct</p></td>
+        </tr>
+        <tr>
+            <td>56</td>
+            <td>Sample Tag</td>
+            <td>Defines sample output from a computer program</td>
+            <td><p><samp>File not found.<br> Press f1 to continue</samp> </p></td>
+        </tr>
+        <tr>
+            <td>57</td>
+            <td>Section Tag</td>
+            <td>Defines a section element in a document</td>
+            <td><section><h3>SECTION</h3><p>This is the section</p></section></td>
+        </tr>
+        <tr>
+            <td>58</td>
+            <td>Small Tag</td>
+            <td>Defines smaller text</td>
+            <td>
+                <p>This is the nirmal text form</p>
+                <p><small>This is a smaller text.</small></p>
+            </td>
+        </tr>
+        <tr>
+            <td>59</td>
+            <td>Span Tag</td>
+            <Td>Defines a section in a document</Td>
+            <td><p>I like <span style="color:crimson"> CRIMSON </span> color</p></td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>Strong Tag</td>
+            <td>Defines important text</td>
+            <td><p>This <strong>TEXT</strong> is important</p></td>
+        </tr>
+        
+        <tr>
+            <td>61</td>
+            <td>Subscripted Tag</td>
+            <td>Defines subscripted text.</td>
+            <td><p>This <sub>TEXT</sub> is subscripted</p></td>
+        </tr>
+        <tr>
+            <td>62</td>
+            <td>Summary Tag</td>
+            <td>Defines a visible heading for the element</td>
+            <td>
+                <Details>
+                    <summary>SUMMARY</summary>
+                    <p>This is the element.</p>
+                </Details>
+            </td>
+        </tr>
+        <tr>
+            <td>63</td>
+            <td>Superscript Tag</td>
+            <td>Defines a superscripted text</td>
+            <td><p>This <sup>TEXT</sup> is superscripted</p></td>
+        </tr>
+        <tr>
+            <td>64</td>
+            <td>Time Tag</td>
+            <td>Defines a specific time.</td>
+            <td><p>Open from <time>10:00</time> to <time>17:00</time> everyday</p></td>
+        </tr>
+        <tr>
+            <td>65</td>
+            <td>Table Tag</td>
+            <td>Defines a table</td> 
+            <td><table>
+                <tr><th>Name</th><th>Age</th></tr>
+                <tr><td>Anisa</td> <td>20</td></tr>
+            </table></td>
+        </tr>
+        <tr>
+            <td>66</td>
+            <td>Title Tag</td>
+            <td>Defines a title for a document</td>
+            <td>
+                    <head>
+                        <title>THIS IS THE TITLE</title>
+                    </head>
+            </td>
+        </tr>
+        <tr>
+            <td>67</td>
+            <td>Variable Tag</td>
+            <td>Defines a variable</td>
+            <td><p>Here variable <var>b</var> means base</p></td>
+
+        </tr>
+        <tr>
+            <td>68</td>
+            <td>Unarticulated Tag</td>
+            <td>Defines some text that is unarticulated and styled differently from normal text</td>
+            <td>This <u>speling</u> is wrong.</td>
+        </tr>
+        <tr>
+            <td>69</td>
+            <td>WBR Tag</td>
+            <td>Defines a possible line break</td>
+            <td><p>this is a <wbr> break <wbr> in the line.</p></td>
+        </tr>
+        <tr>
+            <td>70</td>
+            <td>Style Tag</td>
+            <td>Defines style information of a text</td>
+            <td>
+                <html>
+                    <head>
+                        <style>
+                            h1 {color:cyan}
+                        </style>
+                    </head>
+                    <body>
+                        <h1>This is the style of the document.</h1>
+                    </body>
+                </html>
+            </td>
+        </tr>
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </table>
+        </body>
+</html>
